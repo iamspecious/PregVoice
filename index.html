@@ -12,67 +12,48 @@
     <div class="container my-5">
         <h1 class="text-center mb-4">Welcome to PregVoice</h1>
         
-        <p class="lead">
-            PregVoice is an open-source project that aims to make pregnancy tests accessible for visually impaired individuals. The app will use a smartphone’s camera to detect test results and announce them aloud, offering a simple and privacy-focused solution.
-        </p>
-
-        <h2>How PregVoice Started</h2>
-        <p>
-            Hi, I’m Spec! PregVoice was inspired by a personal experience after a friend lost her vision during pregnancy. I realized that millions of people, particularly those who are visually impaired, struggle to read traditional pregnancy tests. Most of these tests rely on lines or symbols that can’t be interpreted by those with limited vision. Even digital tests with the potential for audio feedback don’t offer this functionality, so I decided to change that.  
-            PregVoice was born out of a desire to make pregnancy tests accessible to all.
-        </p>
-
-        <h2>What PregVoice Does</h2>
-        <ul class="list-group mb-4">
-            <li class="list-group-item">Detect the test result – Positive, negative, or invalid (no control line).</li>
-            <li class="list-group-item">Announce the result aloud – Providing accessible feedback.</li>
-            <li class="list-group-item">Ensure privacy – No data will be stored or shared.</li>
-        </ul>
-
-        <h2>How You Can Help</h2>
-        <p>We are currently looking for people to help in various areas to bring PregVoice to life. If you have skills in any of the following areas, we'd love to collaborate!</p>
-
-        <ul class="list-group mb-4">
-            <li class="list-group-item">
-                <span class="text-primary">&#128187;</span> Developers (Frontend, Backend, Full Stack)
+        <!-- Tab navigation -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
             </li>
-            <li class="list-group-item">
-                <span class="text-primary">&#129302;</span> AI/ML Experts (For training image recognition models)
-            </li>
-            <li class="list-group-item">
-                <span class="text-primary">&#128100;</span> UX/UI Designers (For making the app accessible and user-friendly)
-            </li>
-            <li class="list-group-item">
-                <span class="text-primary">&#128717;</span> Accessibility Advocates (To ensure the app meets all accessibility standards)
-            </li>
-            <li class="list-group-item">
-                <span class="text-primary">&#128085;</span> Testers (To test the app’s functionality and usability)
-            </li>
-            <li class="list-group-item">
-                <span class="text-primary">&#128175;</span> Sponsors (To provide funding for the project)
+            <li class="nav-item">
+                <a class="nav-link" id="wireframe-tab" data-toggle="tab" href="#wireframe" role="tab" aria-controls="wireframe" aria-selected="false">Wireframe</a>
             </li>
         </ul>
 
-        <h2>Join Us and Make a Difference!</h2>
-        <p>
-            PregVoice is an open-source project, and we’d love to have you on board! If you're interested in helping out, visit our 
-            <a href="https://github.com/YOUR_USERNAME/PregVoice" target="_blank">GitHub page</a> to access the code and contribute.
-        </p>
+        <!-- Tab content -->
+        <div class="tab-content" id="myTabContent">
+            <!-- Home Tab -->
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p class="lead">
+                    PregVoice is an open-source project that aims to make pregnancy tests accessible for visually impaired individuals. The app will use a smartphone’s camera to detect test results and announce them aloud, offering a simple and privacy-focused solution.
+                </p>
 
-        <h2>Funding & Support</h2>
-        <p>
-            PregVoice is an unfunded project that started on <a href="https://helpbnk.com/timeline/26373e91-aad7-4653-9af4-aff6a40c0040" target="_blank">HelpBank</a>. While we are working hard to build this app, we currently lack the resources to pay contributors for their time and expertise. To fully develop PregVoice, we will need funding and support.
-            If you’re interested in helping fund the project or providing other types of support, please fill out our <a href="https://forms.gle/3GJwxBvbZVxup3eW8" target="_blank">Google Form</a> to get in touch!
-        </p>
+                <h2>How PregVoice Started</h2>
+                <p>...</p> <!-- Your existing content for the home section goes here -->
 
-        <h2>Contact Information</h2>
-        <p>
-            If you have any questions or would like more information, feel free to reach out through our <a href="https://forms.gle/3GJwxBvbZVxup3eW8" target="_blank">Google Form</a>.
-        </p>
+                <!-- More content ... -->
+            </div>
 
-        <p class="text-center mt-4">
-            <strong>Thank you for your support!</strong>
-        </p>
+            <!-- Wireframe Tab -->
+            <div class="tab-pane fade" id="wireframe" role="tabpanel" aria-labelledby="wireframe-tab">
+                <h2>Wireframe</h2>
+                <p>This is a written description of the app’s wireframe:</p>
+                <ul>
+                    <li>Open the app.</li>
+                    <li>Prompt to line up the test within a large box.</li>
+                    <li>Take the photo.</li>
+                    <li>Display a 'processing' screen with a voice command.</li>
+                    <li>Articulate the result.</li>
+                    <li>Prompt whether the user wants to retry with another test or rehear the response.</li>
+                </ul>
+
+                <h3>Wireframe Image</h3>
+                <p>Here is the visual wireframe of the app:</p>
+                <img src="your-wireframe-image.jpg" alt="PregVoice App Wireframe" class="img-fluid">
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
