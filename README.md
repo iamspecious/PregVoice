@@ -51,7 +51,7 @@ We encourage anyone to contribute to the project! Whether you're a developer, de
 
 ## Visit Our GitHub Pages Site
 
-You can view PregVoice live at: [https://YOUR_USERNAME.github.io/PregVoice](https://iamspecious.github.io/PregVoice)
+You can view PregVoice live at: [https://iamspecious.github.io/PregVoice](https://iamspecious.github.io/PregVoice)
 
 
 ---
