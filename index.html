@@ -30,23 +30,118 @@
                     PregVoice is an open-source project that aims to make pregnancy tests accessible for visually impaired individuals. The app will use a smartphone’s camera to detect test results and announce them aloud, offering a simple and privacy-focused solution.
                 </p>
 
-                <h2>How PregVoice Started</h2>
-                <p>...</p> <!-- Your existing content for the home section goes here -->
+                 <h2>How PregVoice Started</h2>
+        <p>
+            Hi, I’m Spec! PregVoice was inspired by a personal experience after a friend lost her vision during pregnancy. I realized that millions of people, particularly those who are visually impaired, struggle to read traditional pregnancy tests. Most of these tests rely on lines or symbols that can’t be interpreted by those with limited vision. Even digital tests with the potential for audio feedback don’t offer this functionality, so I decided to change that.  
+            PregVoice was born out of a desire to make pregnancy tests accessible to all.
+        </p>
 
-                <!-- More content ... -->
-            </div>
+        <h2>What PregVoice Does</h2>
+        <ul class="list-group mb-4">
+            <li class="list-group-item">Detect the test result – Positive, negative, or invalid (no control line).</li>
+            <li class="list-group-item">Announce the result aloud – Providing accessible feedback.</li>
+            <li class="list-group-item">Ensure privacy – No data will be stored or shared.</li>
+        </ul>
+
+        <h2>How You Can Help</h2>
+        <p>We are currently looking for people to help in various areas to bring PregVoice to life. If you have skills in any of the following areas, we'd love to collaborate!</p>
+
+        <ul class="list-group mb-4">
+            <li class="list-group-item">
+                <span class="text-primary">&#128187;</span> Developers (Frontend, Backend, Full Stack)
+            </li>
+            <li class="list-group-item">
+                <span class="text-primary">&#129302;</span> AI/ML Experts (For training image recognition models)
+            </li>
+            <li class="list-group-item">
+                <span class="text-primary">&#128100;</span> UX/UI Designers (For making the app accessible and user-friendly)
+            </li>
+            <li class="list-group-item">
+                <span class="text-primary">&#128717;</span> Accessibility Advocates (To ensure the app meets all accessibility standards)
+            </li>
+            <li class="list-group-item">
+                <span class="text-primary">&#128085;</span> Testers (To test the app’s functionality and usability)
+            </li>
+            <li class="list-group-item">
+                <span class="text-primary">&#128175;</span> Sponsors (To provide funding for the project)
+            </li>
+        </ul>
+
+        <h2>Join Us and Make a Difference!</h2>
+        <p>
+            PregVoice is an open-source project, and we’d love to have you on board! If you're interested in helping out, visit our 
+            <a href="https://github.com/YOUR_USERNAME/PregVoice" target="_blank">GitHub page</a> to access the code and contribute.
+        </p>
+
+        <h2>Funding & Support</h2>
+        <p>
+            PregVoice is an unfunded project that started on <a href="https://helpbnk.com/timeline/26373e91-aad7-4653-9af4-aff6a40c0040" target="_blank">HelpBank</a>. While we are working hard to build this app, we currently lack the resources to pay contributors for their time and expertise. To fully develop PregVoice, we will need funding and support.
+            If you’re interested in helping fund the project or providing other types of support, please fill out our <a href="https://forms.gle/3GJwxBvbZVxup3eW8" target="_blank">Google Form</a> to get in touch!
+        </p>
+
+        <h2>Contact Information</h2>
+        <p>
+            If you have any questions or would like more information, feel free to reach out through our <a href="https://forms.gle/3GJwxBvbZVxup3eW8" target="_blank">Google Form</a>.
+        </p>
+
+        <p class="text-center mt-4">
+            <strong>Thank you for your support!</strong>
+        </p>
+    </div>
 
             <!-- Wireframe Tab -->
             <div class="tab-pane fade" id="wireframe" role="tabpanel" aria-labelledby="wireframe-tab">
                 <h2>Wireframe</h2>
-                <p>This is a written description of the app’s wireframe:</p>
-                <ul>
-                    <li>Open the app.</li>
-                    <li>Prompt to line up the test within a large box.</li>
-                    <li>Take the photo.</li>
-                    <li>Display a 'processing' screen with a voice command.</li>
-                    <li>Articulate the result.</li>
-                    <li>Prompt whether the user wants to retry with another test or rehear the response.</li>
+<p>
+    Below is the wireframe for the PregVoice app, outlining each step of the process:
+</p>
+<ul class="list-group mb-4">
+    <li class="list-group-item">
+        <strong>1. Opening Screen</strong><br>
+        The app opens with a welcome message and a button to start the process.<br>
+        <strong>Voice command:</strong> "Welcome to PregVoice. Please tap to begin."<br>
+        <em>Improvement:</em> Add a haptic feedback (vibration) when the user taps the screen.
+    </li>
+    <li class="list-group-item">
+        <strong>2. Test Alignment Screen</strong><br>
+        A large box in the center of the screen with instructions like "Place the pregnancy test within this box." The box should guide the user to align the test, possibly with visual or audio cues.<br>
+        <strong>Voice command:</strong> "Please align the test within the box."<br>
+        <em>Improvement:</em> Add a vibration when the test is aligned correctly.
+    </li>
+    <li class="list-group-item">
+        <strong>3. Photo Capture</strong><br>
+        Once the test is aligned, a button will be pressed to capture the image. A sound cue could indicate the photo is taken.<br>
+        <strong>Voice command:</strong> "Photo taken, processing your test."<br>
+        <em>Improvement:</em> Add tactile feedback (vibration) after the photo is taken to confirm success.
+    </li>
+    <li class="list-group-item">
+        <strong>4. Processing Screen</strong><br>
+        A screen with a "Processing..." message, possibly with a spinner or animation to show the app is working.<br>
+        <strong>Voice command:</strong> "Processing the result..."<br>
+        <em>Improvement:</em> Add a progress indicator or brief vocal feedback to reassure users that the app is working.
+    </li>
+    <li class="list-group-item">
+        <strong>5. Result Screen</strong><br>
+        The app announces the result (e.g., "You are pregnant," "You are not pregnant," or "Invalid test, no control line").<br>
+        <strong>Voice command:</strong> "The test result is: [Result]."<br>
+        <em>Improvement:</em> Allow users to confirm the result by tapping or swiping to hear the result again.
+    </li>
+    <li class="list-group-item">
+        <strong>6. Retry/Rehear Screen</strong><br>
+        A simple screen with two options: "Retry" or "Rehear Result."<br>
+        <strong>Voice command:</strong> "Would you like to retry or hear the result again?"<br>
+        <em>Improvement:</em> Provide large, easy-to-press buttons with clear audio feedback for each action. Also, offer the option to adjust the pace of the app (e.g., "Would you like to slow down the steps?" or "Would you like to skip to the next stage?").
+    </li>
+</ul>
+
+<h3>Additional Accessibility Considerations:</h3>
+<ul class="list-group mb-4">
+    <li class="list-group-item"><strong>Tactile Feedback:</strong> Adding vibrations at key moments (like aligning the test, capturing the photo, and after the result is given) can help users who might not be able to distinguish between auditory cues easily.</li>
+    <li class="list-group-item"><strong>Audio Customization:</strong> Users should be able to adjust the volume, speed, and voice of the app. Offering various voice options and languages can enhance accessibility for a broader audience.</li>
+    <li class="list-group-item"><strong>Error Handling:</strong> If something goes wrong (e.g., the test is not aligned), clear voice feedback like, "No test detected, please realign the test within the box," can guide the user through the correction process.</li>
+    <li class="list-group-item"><strong>Help Option:</strong> Allow users to access help at any stage, with voice commands like, "For assistance, press and hold the screen to speak to the help desk."</li>
+</ul>
+
                 </ul>
 
                 <h3>Wireframe Image</h3>
